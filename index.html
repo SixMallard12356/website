@@ -11,11 +11,11 @@
         <h1>SIX Client</h1>
         <nav>
             <ul>
-                <li><a href="#home">ホーム</a></li>
-                <li><a href="#features">特徴</a></li>
-                <li><a href="#faq">FAQ</a></li>
-                <li><a href="#changelog">変更履歴</a></li>
-                <li><a href="#contact">コンタクト</a></li>
+                <li><a href="#home" class="nav-button">ホーム</a></li>
+                <li><a href="#features" class="nav-button">特徴</a></li>
+                <li><a href="#faq" class="nav-button">FAQ</a></li>
+                <li><a href="#changelog" class="nav-button">変更履歴</a></li>
+                <li><a href="#contact" class="nav-button">コンタクト</a></li>
             </ul>
         </nav>
     </header>
@@ -25,7 +25,9 @@
             <p>黒丸のExploit活用した軽量かつ機能的なClientです
                 近未来的なデザインと使いやすさを追求しています。
             </p>
-            <a href="https://discord.com" class="discord-button">Discordに参加</a>
+            <a href="https://discord.com/invite/3cPMXcdGKd" class="discord-button">
+                <img src="Discord.svg" alt="Discord Logo" class="discord-icon"> Discordに参加
+            </a>
         </section>
         <section id="features">
             <h2>特徴</h2>
@@ -46,7 +48,7 @@
                     <p>最新のセキュリティ技術を採用し、安全な環境を提供</p>
                     <ul>
                         <li>データ暗号化</li>
-                        <li>二要素認証</li>
+                        <li>Log4j2に対する完璧な対策</li>
                         <li>リアルタイム監視</li>
                     </ul>
                 </div>
@@ -55,7 +57,7 @@
                     <h3>カスタマイズ性</h3>
                     <p>ユーザーのニーズに合わせた柔軟なカスタマイズが可能</p>
                     <ul>
-                        <li>テーマ変更</li>
+                        <li>カスタムGUIの変更</li>
                         <li>プラグイン対応</li>
                         <li>設定の保存と同期</li>
                     </ul>
@@ -72,25 +74,32 @@
                 </div>
             </div>
         </section>
-
         <section id="faq">
             <h2>FAQ</h2>
             <div class="faq-item">
-                <p class="question">Q. マインクラフトの対応versionは何ですか？</p>
+                <p class="question">Q. マインクラフトの対応versionは何ですか？ <span class="toggle-icon">+</span></p>
                 <p class="answer">A. バージョンは最新の1.21に対応しています。</p>
             </div>
             <div class="faq-item">
-                <p class="question">Q. これはチートですか？</p>
+                <p class="question">Q. これはチートですか？ <span class="toggle-icon">+</span></p>
                 <p class="answer">A. いいえ、これはPlayerのゲーム体験を改善するUtilityModです。</p>
             </div>
             <div class="faq-item">
-                <p class="question">Q. サポートはどのように受けられますか？</p>
-                <p class="answer">A. Discordサーバによるサポート、メールサポート、コミュニティフォーラムを通じてサポートを受けられます。</p>
+                <p class="question">Q. サポートはどのように受けられますか？ <span class="toggle-icon">+</span></p>
+                <p class="answer">A. Discordサーバによるサポート、<a href="hiro874@f5.si" class="support-link">メールサポート</a>、<a href="https://discord.com/invite/3cPMXcdGKd" target="_blank" class="support-link">コミュニティフォーラム</a>を通じてサポートを受けられます。</p>
             </div>
         </section>
         <section id="changelog">
             <h2>変更履歴</h2>
-            <p>Webサイトだけ作りました</p>
+            <p>SIXClientのすべての注目すべき変更は、この変更ログに記録されます。</p>
+            <div class="changelog-entry">
+                <h3>[v0.0.1] - 2025年1月25日</h3>
+                <ul>
+                    <li>Minecraft 1.21のサポートを追加しました</li>
+                    <li>ClickGUIを一新しました</li>
+                    <li>NoteBotモジュールを追加しました</li>
+                </ul>
+            </div>
         </section>
         <section id="contact">
             <h2>動作環境</h2>
@@ -116,7 +125,7 @@
                     <li>Network: ブロードバンドインターネット接続</li>
                 </ul>
             </div>
-        </section> 
+        </section>
         <section id="testimonials">
             <h2>使用者の声</h2>
             <div class="testimonials-grid">
@@ -141,14 +150,28 @@
                     <p>- ユーザーE</p>
                 </div>
                 <div class="testimonial-box">
-                    <p>"このクライアントを使い始めてから、彼女が出来て年収2000万円超えてIQテストで100点取れました！</p>
+                    <p>"このクライアントを使い始めてから、彼女が出来て年収2000万円超えてIQテストで100点取れました！"</p>
                     <p>- 潜在的アホ</p>
                 </div>
+            </div>
+            <div class="trustpilot-button-container">
+                <a href="https://www.trustpilot.com/review/sixmallard12356.github.io" target="_blank" class="trustpilot-button">
+                    <img src="trustpilot-2.svg" alt="Trustpilot Logo" class="trustpilot-icon"> Trustpilotでレビューを見る
+                </a>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; ©2025 SIXClient LLC - 無断複写・転載を禁じます。</p>
+        <p>&copy; 2025 SIXClient LLC - 無断複写・転載を禁じます。</p>
+        <div class="footer-links">
+            <a href="https://www.youtube.com/@MCTHNK" target="_blank" class="footer-link">
+                <img src="動画再生ボタン.svg" alt="YouTube" class="footer-icon"> YouTube
+            </a>
+            <a href="https://github.com/SixMallard12356/website" target="_blank" class="footer-link">
+                <img src="github-mark-white.png" alt="GitHub" class="footer-icon"> GitHub
+            </a>
+        </div>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
